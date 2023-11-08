@@ -1,17 +1,19 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'lucida sans unicode', sans-serif;
     margin: 20px;
     text-align: justify;
     background-color: bisque;
 }
 .product{
     display:grid;
-    grid-template-rows: auto;
+    grid-template-columns: 60px 60px;
+    grid-template-rows: auto auto auto auto;
     grid-area: auto;
 }
 .product{
     display:flex;
-    height: 30%;
+    height: 60%;
+    width:100%;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(220, 144, 200);
@@ -23,9 +25,9 @@ body {
 }
 
 .product, .cart-item {
-    border: 5px solid #ccc;
+    border: 1px solid #ccc;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 button {
